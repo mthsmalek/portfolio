@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+p { 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Reddit Mono";
+}
+
+h2 { 
+    color: rgb(204, 13, 13, 0.808);
+    text-transform: : capitalize;
+}
+h1 {
+    color: rgb(204, 13, 13, 0.808);
+    text-transform: capitalize;
+    text-align: center;
+}
+h2{ 
+text-align: center;
+}
+h3 {
+    text-align: center;
+}
+ol {
+    text-align: center;
+    color: rgb(204, 13, 13, 0.808);
+}
+table {
+    text-align: center;
+}
+li {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+    list-style: none;
+}
+ul { 
+    text-align: center;
+    color: rgb(204, 13, 13, 0.808);
+    list-style: none;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+img {
+    margin: auto;
+    display: block;
+    border-radius: 25%;
+}
+.imagem {
+    border-radius: 60%;
+}
+h3 {
+    color:rgb(204, 13, 13, 0.808);
+}
+table {
+    color: rgba(255, 255, 255, 0.808);
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul li {
+    list-style: none;
+}
+li class instagram {
+    margin-left: auto;
+}
+.card {
+    display: flex;
+    height: 70px;
+    width: 350px;
+  }
+  
+  .card svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .card .social-link1,.card .social-link2,.card .social-link3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .card svg {
+    transform: scale(1);
+  }
+  
+  .card .social-link1:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card .social-link2:hover {
+    background-color: #242c34;
+    animation: bounce_613 0.4s linear;
+  }
+  .card .social-link3:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+.card {
+    margin: auto;
+}
